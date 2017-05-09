@@ -1,0 +1,27 @@
+{
+  "name": "oguzcabuk07/swift-from-iban",
+  "description": "Get Bank swift code from iban",
+  "require": {
+    "php": ">=5.5.9",
+    "guzzlehttp/guzzle": "6.2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "mockery/mockery": "^0.9.4"
+  },
+  "authors": [
+    {
+      "name": "Oguz CABUK"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OguzCabuk\\SwiftFromIban\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OguzCabuk\\SwiftFromIban\\Test\\": "tests/"
+    }
+  }
+}
